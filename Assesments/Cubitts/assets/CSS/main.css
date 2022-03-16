@@ -1,0 +1,23 @@
+
+.topheader{
+    
+    position: fixed;
+    top 0;
+    width 100%;
+}
+.title{
+    align-items: left;
+    text-transform: capitalize;
+}
+.navbar{
+    align-items: center;
+}
+
+.navtools{
+    align-items: right;
+}
+
+.facts{
+    border-bottom: 1px solid black;
+    border-radius: 1px solid black;
+}
