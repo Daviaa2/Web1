@@ -1,23 +1,48 @@
 
+.body{
+    background: color whitesmoke;
+}
 .topheader{
-    
-    position: fixed;
-    top 0;
-    width 100%;
-}
-.title{
-    align-items: left;
-    text-transform: capitalize;
-}
-.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 65px;
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
+
+}
+
+.navbar{
+    flex: 100%;
+    position: absolute;
 }
 
 .navtools{
-    align-items: right;
+   
+    flex: 100%;
+    width: auto;
+    margin-left: auto;
+    text-align-last: right;
 }
 
 .facts{
+    margin-top: 100%;
     border-bottom: 1px solid black;
     border-radius: 1px solid black;
 }
+
+.front{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 80%;
+}
+
