@@ -1,6 +1,9 @@
 
-.body{
+#body{
     background: color whitesmoke;
+    font-family:sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .topheader{
     display: flex;
@@ -16,12 +19,17 @@
     height: 65px;
     background-color: whitesmoke;
     border-bottom: 1px solid black;
-
-}
-
+    flex: 100%;
+    margin: 0%;
+    font-family:sans-serif;
+}    
 .navbar{
     flex: 100%;
-    position: absolute;
+    text-align: center;
+    text-align-last: right;  
+    font-size: 16px;
+    font-family:sans-serif;
+    padding: 10;
 }
 
 .navtools{
@@ -30,6 +38,8 @@
     width: auto;
     margin-left: auto;
     text-align-last: right;
+    font-size: 16px;
+    font-family:sans-serif;
 }
 
 .facts{
@@ -39,10 +49,23 @@
 }
 
 .front{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 50%;
-    height: 80%;
+    display: grid;
+    height: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+.vid{
+ grid-row: 1 /4;
+ grid-column: 1 / 2;
+}
+
+.heroimg{
+    grid-row: 1 / 3;
+    grid-column: 2 / 4;
+}
+
+.paragraphtext{
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
