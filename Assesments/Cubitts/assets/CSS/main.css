@@ -2,6 +2,8 @@
 #body{
     background: color whitesmoke;
     font-family:sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -22,7 +24,11 @@
     flex: 100%;
     margin: 0%;
     font-family:sans-serif;
-}    
+}  
+
+.title{
+    padding: 20px;
+}
 .navbar{
     flex: 100%;
     text-align: center;
@@ -40,6 +46,7 @@
     text-align-last: right;
     font-size: 16px;
     font-family:sans-serif;
+    padding-right: 20px;
 }
 
 .facts{
@@ -50,22 +57,49 @@
 
 .front{
     display: grid;
-    height: 200px;
+    height: 780px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid black;
 }
 
 .vid{
- grid-row: 1 /4;
- grid-column: 1 / 2;
+    grid-column: 1 / 3;
+    grid-row: 1 /5;
+}
+.vid.video{
+    width: 100%;
+    height: 100%;
+
 }
 
 .heroimg{
-    grid-row: 1 / 3;
-    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+    grid-column: 3 / 5;
 }
 
 .paragraphtext{
-    grid-row: 3 / 4;
-    grid-column: 2 / 3;
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+.linktext{
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+.glasses{
+    width: 33%;
+    height: 33%;
+}
+.showcase{
+    display:grid;
+    height:780px;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr;
+}
+
+.glassesText{
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
 }
