@@ -131,7 +131,25 @@ img.heroImg{
     object-fit: fill;
 }
 
-.glasses{
+.glasses_1{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.glasses_2{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.glasses_3{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+}
+
+.glasses_4{
     max-width: 100%;
     max-height: 100%;
     object-fit: fill;
