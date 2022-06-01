@@ -5,8 +5,12 @@ console.log(message);
  let glasses1 = document.querySelector(".glasses_1");
     glasses1.addEventListener("mouseover", e => {
         console.log("hovered");
-        img.src = "assets/images/model1.jpeg"
-        (glasses1).append(img);
+        if (document.img.src == 'glass1.webp'){
+            document.img.src='model1.jpeg';
+            } 
+            else if (document.img.src =='model1.jpeg'){
+            document.img.src='glass1.webp';
+            }
     });
 
 let glasses2 = document.querySelector(".glasses_2");
