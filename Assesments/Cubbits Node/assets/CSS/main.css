@@ -29,6 +29,7 @@ body{
     height: 65px;
     background-color: whitesmoke;
     border-bottom: 1px solid grey;
+    border-bottom-width: 98%;
     flex: 100%;
     margin: 0%;
     font-family: 'Source Sans Pro', sans-serif;
@@ -344,10 +345,7 @@ img.copyright{
     object-fit: fill;
 }
 
-.contacts{
-    grid-column: 2 / 3;
-}
-.newsletter{
+.contacts, .newsletter{
     grid-column: 2 / 3;
 }
 
