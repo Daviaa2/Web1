@@ -1,8 +1,10 @@
 body{
     margin: 0%; 
     background-color: whitesmoke;
+    --blue: #006EB6;
 }
 
+/* navbar styling */
 nav{
     display: flex;
     flex: 100%;
@@ -16,8 +18,8 @@ nav{
     padding-top: 10px;
     left: 0;
     top: 0;
-    border-top: 1px solid blue;
-    border-bottom: 1px solid blue;
+    border-top: 1px solid var(--blue);
+    border-bottom: 1px solid var(--blue);
     background-color: whitesmoke;
     
     
@@ -39,4 +41,52 @@ nav{
     align-items: center;
     justify-items: space-evenly;
     width: 40%;
+}
+
+/* front page css */
+
+.frontPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.frontPage_col1 img{
+    grid-column: 1 / 2;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.frontPage_col2{
+    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 70px;
+}
+
+.frontPage_text{
+    font-size: large;
+    color: var(--blue);
+}
+
+.frontPage_buttons{
+   display: flex;
+   flex-direction: row;
+   color: whitesmoke;
+
+}
+
+button{
+    transition-duration: 0.5ms;
+    background-color: whitesmoke;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+button:hover{
+    background-color: var(--blue);
+    color: whitesmoke;
 }
