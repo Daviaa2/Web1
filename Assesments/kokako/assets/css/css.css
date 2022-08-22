@@ -4,6 +4,20 @@ body{
     --blue: #006EB6;
 }
 
+/* all the buttonms havd the same style */
+
+button{
+    transition-duration: 0.5ms;
+    background-color: whitesmoke;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+button:hover{
+    background-color: var(--blue);
+    color: whitesmoke;
+}
+
 /* navbar styling */
 nav{
     display: flex;
@@ -79,14 +93,27 @@ nav{
 
 }
 
-button{
-    transition-duration: 0.5ms;
-    background-color: whitesmoke;
+/* promobar */
+.promoBar{
+    position: relative;
+    width: 100%;
+    border-top: 1px solid var(--blue);
+    border-bottom: 1px solid var(--blue);
+    padding: 10px;
+    min-height: 30px;
+}
+.promoBar ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: var(--blue);
-    border: 1px solid var(--blue);
 }
 
-button:hover{
-    background-color: var(--blue);
-    color: whitesmoke;
-}
+
+
+
+
