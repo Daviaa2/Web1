@@ -2,7 +2,7 @@ body{
     --blue: #006EB6;
     --background:white;
     margin: 0%; 
-    background-color: var(--background);
+    background: var(--background);
     
 }
 
@@ -10,7 +10,7 @@ body{
 
 button{
     transition-duration: 0.5ms;
-    background-color: var(--background);
+    background: var(--background);
     color: var(--blue);
     border: 1px solid var(--blue);
 }
@@ -36,7 +36,7 @@ nav{
     top: 0;
     border-top: 1px solid var(--blue);
     border-bottom: 1px solid var(--blue);
-    background-color: var(--background);
+    background: var(--background);
     
     
 }
@@ -137,6 +137,59 @@ nav{
     margin-left: 20%;
     margin-right: 20%;
     font-size: xx-large;
+}
+
+/* certicifications section */
+
+
+
+.certifications_header{
+    border: 1px solid var(--blue);
+
+    height: 100px;
+    text-align: center;
+}
+
+.certifications_parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.certifications_child{
+    border: 1px solid var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    padding: 40px;
+}
+.certifications_main{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    border: 1px solid var(--blue);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    max-height: none;
+    max-width: none;
+    margin: none;
+    padding: none;
+}
+
+.certifications_img{
+    height: 80px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.certifications_paragraph{
+    font-size: 16px;
+    color: var(--blue);
 }
 
 
