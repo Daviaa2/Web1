@@ -141,7 +141,6 @@ nav{
 
 .certifications_header{
     border: 1px solid var(--blue);
-
     height: 100px;
     text-align: center;
 }
@@ -208,7 +207,7 @@ nav{
 }
 
 /* =========================== get help =================== */
-.featuredGoods_sideBar, h1{
+.featuredGoods_sideBar{
     transform-origin: 0, 0;
     transform: rotate(180deg);
 }
@@ -231,9 +230,7 @@ nav{
 }
 .featuredGoods_child{
     display: flex;
-    text-align: center;
-    border-bottom: var(--blue);
-  
+    text-align: center; 
 }
 
 .featuredGoods_child, img{
@@ -244,6 +241,18 @@ nav{
 .featuredGoods_peckish{
     grid-column: 6 / 10;
     grid-row: 2 / 10;
+}
+
+/* the long game styling */
+
+.longGame{
+    margin: 50px 50px 50px 50px;
+    color: var(--blue);
+    font-size: large;
+}
+
+.longGame_english, .longGame_maori{
+    font-size: x-large;
 }
 
 
