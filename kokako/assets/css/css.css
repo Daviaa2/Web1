@@ -21,6 +21,10 @@ button:hover{
     color: var(--background);
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 /* navbar styling */
 nav{
     display: flex;
@@ -189,59 +193,69 @@ nav{
 
 /* featured goods  */
 
-.featuredGoods{
-    border: 1px solid var(--blue);
+.featuredGoods,.featuredGoods_parent{
     display: grid;
     grid-template-columns: repeat(10) 1fr;
     grid-template-rows: repeat(10) 1fr;
+    color: #006EB6;
 }
-
+.featuredGoods{
+    height: 1000px;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-bottom: 1px solid #006EB6;
+}
 .featuredGoods_sideBar{
     grid-column: 1 / 2;
     grid-row: 1 / 10;
-    position: relative;
-    left: 50%;
-    top: 45px;
+    width: 150px;
+    border-right: 1px solid #006EB6;
 
-    color: var(--blue);
 }
 
-/* =========================== get help =================== */
-.featuredGoods_sideBar{
+.sideBar_title{
+    display: block;
     transform: rotate(270deg);
-    transform-origin: 0 0;
+    font-size: xx-large;
 }
 
 .featuredGoods_parent{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    border-bottom: var(--blue);
-    gap: 80px;
-    padding: 70px;
-    border-bottom: 1px solid var(--blue);
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 100px;
+   padding: 70px;
+   justify-content: center;
+   align-items: center;
+
    
 }
 
 .featuredGoods_body{
-    border: 1px solid var(--blue);
     grid-column: 2 / 10;
-    box-sizing: border-box;
+    grid-row: 1 / 6;
+}
 
+.featuredGoods_img{
+    height: 150%;
+    width: 150%;
 }
 .featuredGoods_child{
-    display: flex;
-    text-align: center; 
-}
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 
-.featuredGoods_child, img{
-    height: 100%;
-    width: 100%;
-} 
+}
 
 .featuredGoods_peckish{
-    grid-column: 6 / 10;
-    grid-row: 2 / 10;
+    grid-column: 2 / 10;
+    grid-row: 6 / 10;
+    border-top: 1px solid #006EB6;
+    padding: 70px;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 /* the long game styling */
 .longGame{
@@ -390,6 +404,11 @@ nav{
     width: 100%;
 }
 
+a:link {
+    text-decoration: none;
+    color: white;
+}  
+/* footer section*/
 footer{
     display: grid;
     grid-template-columns: repeat(10) 1fr;
@@ -418,7 +437,6 @@ footer{
     grid-row: 1 / 4;   
 }
 .footer_coffee{
-    
     grid-column: 4 / 7;
     grid-row: 1 / 4;
 }
@@ -462,11 +480,5 @@ footer{
     grid-row: 8 / 10;
 }
 
-a:link {
-    text-decoration: none;
-    color: white;
-}
 
-a:hover{
-    text-decoration: underline;
-}
+
