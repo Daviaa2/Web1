@@ -3,7 +3,8 @@ body{
     --background:white;
     margin: 0%; 
     background: var(--background);
-    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* all the buttonms havd the same style */
@@ -42,6 +43,7 @@ nav{
     border-top: 1px solid var(--blue);
     border-bottom: 1px solid var(--blue);
     background: var(--background);
+    color: #006EB6;
    
     
     
@@ -232,11 +234,12 @@ nav{
 .featuredGoods_body{
     grid-column: 2 / 10;
     grid-row: 1 / 6;
+    max-width: 100%;
 }
 
 .featuredGoods_img{
-    height: 150%;
-    width: 150%;
+    height: 100%;
+    width: 100%;
 }
 .featuredGoods_child{
    display: flex;
@@ -254,9 +257,7 @@ nav{
     justify-content: center;
     align-items: center;
 }
-
-
-
+ 
 /* the long game styling */
 .longGame{
     border-bottom: 1px solid var(--blue);
