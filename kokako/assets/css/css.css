@@ -22,6 +22,9 @@ button:hover{
     color: var(--background);
 }
 
+a:link {
+    text-decoration: none;
+}  
 a:hover{
     text-decoration: underline;
 }
@@ -35,7 +38,7 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     position: fixed;
-    height: 60px;
+    height: 50px;
     width: 100%;
     padding-top: 10px;
     left: 0;
@@ -43,28 +46,28 @@ nav{
     border-top: 1px solid var(--blue);
     border-bottom: 1px solid var(--blue);
     background: var(--background);
-    color: #006EB6;
-   
-    
-    
+    color: var(--blue);
 }
 
 .nav_links{
     justify-items: space-evenly;
     width: 40%;
     display: block;
+    color: var(--blue);
 }
 
 .nav_logo{
    align-content: center;
 }
-
 .nav_tools{
     align-items: center;
     justify-items: space-evenly;
-    width: 40%;
+    color: var(--blue);
 }
-
+.nav_items{
+    color: var(--blue);
+   position: top;
+}
 /* front page css */
 
 .frontPage{
@@ -405,10 +408,6 @@ nav{
     
 }
 
-a:link {
-    text-decoration: none;
-    color: white;
-}  
 /* footer section*/
 footer{
     display: grid;
@@ -480,6 +479,10 @@ footer{
     grid-column: 1 / 7;
     grid-row: 8 / 10;
 }
+.footer_link{
+    color: white;
+}
+
 
 
 
