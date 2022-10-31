@@ -202,7 +202,6 @@ nav{
     color: #006EB6;
 }
 .featuredGoods{
-    height: 1000px;
     grid-template-rows: 1fr 1fr 1fr;
     border-bottom: 1px solid #006EB6;
 }
