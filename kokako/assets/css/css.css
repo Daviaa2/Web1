@@ -47,13 +47,14 @@ nav{
     border-bottom: 1px solid var(--blue);
     background: var(--background);
     color: var(--blue);
+    justify-content: space-around;
 }
 
 .nav_links{
     justify-items: space-evenly;
     width: 40%;
     display: block;
-    color: var(--blue);
+    color: var(--blue); 
 }
 
 .nav_logo{
