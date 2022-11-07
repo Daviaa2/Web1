@@ -267,10 +267,17 @@ nav{
 .longGame{
     border-bottom: 1px solid var(--blue);
 }
+
+.longGame_img{
+    height: 100%;
+    width: 100%;
+}
 .longGame_body{
     margin: 50px 50px 50px 50px;
     color: var(--blue);
     font-size: large;
+    height: 100%;
+    width: 100%;
 }
 
 .longGame_english, .longGame_maori{
@@ -390,10 +397,11 @@ nav{
  color: #006EB6;
  display: grid;
  grid-column: 1fr 1fr;
- gap: 50px;
+ gap: 5%;
  padding-left: 40px;
  padding-right: 40px;
- 
+ height: 100%;
+ width: 100%;
 
 }
 .chronicle_left{
@@ -416,6 +424,8 @@ footer{
     grid-template-rows: repeat(10) 1fr;
     background-color: #006EB6;
     color: white;
+    height: 100%;
+    width: 100%;
 }
 
 .footer_newsletter, .footer_coffee, .footer_kokako, .footer_sustainability, .footer_brewGuides, 
@@ -484,6 +494,8 @@ footer{
     color: white;
 }
 
+@media only screen and (max-width: 480px) {
 
+}
 
 
