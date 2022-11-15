@@ -1,6 +1,7 @@
 console.log("hello ")
 
 
+// adds new images to the featured good msection
 const BASE_URL = "https://api.unsplash.com/search/photos/?query=coffee&client_id=WW2w2wSFislyEtDEvaRXoV9GHobIITnYKC7E5Mprau4"
 
 let div = document.querySelector(".featuredGoods_parent");
@@ -15,4 +16,11 @@ fetch(BASE_URL).then(response => response.json())
 });
 
 
+// adds a searchbar to the navbar
+let searchGlass = document.querySelector(".material-icons");
+
+searchGlass.addEventListener("click", e => {
+    let searchBar = document.createElement("input");
+    searchGlass.append(searchBar);     
+});
 
