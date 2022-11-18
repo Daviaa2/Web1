@@ -15,7 +15,6 @@ fetch(BASE_URL).then(response => response.json())
   });
 });
 
-
 // adds a searchbar to the navbar
 let searchGlass = document.querySelector(".material-icons");
 
