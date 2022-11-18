@@ -51,9 +51,6 @@ nav{
     z-index: 999;
 }
 
-{
-
-}
 .nav_links{
     justify-items: space-evenly;
     width: 25%;
@@ -139,7 +136,6 @@ nav{
     color: var(--blue);
     background-color: var(--background);
     margin-bottom: 15%;
-
 }
 
 
@@ -166,7 +162,7 @@ nav{
     text-align: center;
     padding: 80px;
     font-size: x-large;
-    color: #006EB6;
+    color: var(--blue);
 }
 
 .certifications_parent{
@@ -217,17 +213,17 @@ nav{
     display: grid;
     grid-template-columns: repeat(10) 1fr;
     grid-template-rows: repeat(10) 1fr;
-    color: #006EB6;
+    color: var(--blue);
 }
 .featuredGoods{
     grid-template-rows: 1fr 1fr 1fr;
-    border-bottom: 1px solid #006EB6;
+    border-bottom: 1px solid var(--blue);
 }
 .featuredGoods_sideBar{
     grid-column: 1 / 2;
     grid-row: 1 / 10;
     width: 150px;
-    border-right: 1px solid #006EB6;
+    border-right: 1px solid var(--blue);
 
 }
 
@@ -271,7 +267,7 @@ nav{
 .featuredGoods_peckish{
     grid-column: 2 / 10;
     grid-row: 6 / 10;
-    border-top: 1px solid #006EB6;
+    border-top: 1px solid var(--blue);
     padding: 70px;
     justify-content: center;
     align-items: center;
@@ -283,7 +279,6 @@ nav{
 }
 
 .longGame_img{
-
     width: 95%;
 }
 .longGame_body{
@@ -329,8 +324,7 @@ nav{
 
 .kokako_text{
     text-align: center;
-    padding-left: 50px;
-    
+    padding-left: 50px;  
 }
 
 .outpost_roastery{
@@ -357,8 +351,7 @@ nav{
 
 .roastery_text{
     text-align: center;
-    padding-left: 50px;
-    
+    padding-left: 50px;   
 }
 
 /* partner section */
@@ -376,7 +369,6 @@ nav{
     grid-row: 1 / 4;
     border-right: 1px solid var(--blue);
     padding: 70px;
-
 }
 
 .partner_bird{
@@ -408,7 +400,7 @@ nav{
 
 .chronicle{
  padding: 70px;
- color: #006EB6;
+ color: var(--blue);
  display: grid;
  grid-column: 1fr 1fr;
  gap: 5%;
@@ -426,8 +418,7 @@ nav{
 .chronicle_right{
     grid-column: 2 / 3;
     height: 100%px;
-    width: 100%;
-  
+    width: 100%;    
 }
 
 /* footer section*/
@@ -435,7 +426,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(10) 1fr;
     grid-template-rows: repeat(10) 1fr;
-    background-color: #006EB6;
+    background-color: var(--blue);
     color: white;
     height: 100%;
     width: 100%;
@@ -447,7 +438,7 @@ footer{
     flex-direction: column;
     border: 1px solid white;
     padding: 70px;
-    color: white;
+    color: var(--background);
 }
 
 .footer_instagram, .footer_facebook, .footer_twitter, .footer_copyright{
